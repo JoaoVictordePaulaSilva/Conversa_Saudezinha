@@ -1,0 +1,114 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f5;
+}
+
+#form_fundo {
+  text-align: center;
+  background-color: #fff;
+  padding: 40px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 14px;
+  color: #555;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+#btn_login {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: background-color 0.3s;
+}
+
+#btn_login:hover {
+  background-color: #0056b3;
+}
+
+/* Efeitos decorativos para o botão */
+#btn_login span {
+  position: absolute;
+  display: block;
+}
+
+#btn_login span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: #fff;
+  animation: btn-hover 1s linear infinite;
+}
+
+#btn_login span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: #fff;
+  animation: btn-hover 1s linear infinite 0.25s;
+}
+
+#btn_login span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: #fff;
+  animation: btn-hover 1s linear infinite 0.5s;
+}
+
+#btn_login span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: #fff;
+  animation: btn-hover 1s linear infinite 0.75s;
+}
+
+@keyframes btn-hover {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
