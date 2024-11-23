@@ -32,9 +32,33 @@ Os diagramas desenvolvidos incluem:
 - **Diagrama de Casos de Uso:** mapeando as principais interações entre o usuário e o sistema.  
 - **Diagrama de Classes:** estruturando as entidades e suas relações.  
 - **Diagrama de Sequência:** detalhando o fluxo das interações no sistema.
-- **Diagrama de Atividida:** ilustra o fluxo de trabalho do sistema, como os passos para agendar consultas ou consultar sintomas.   
+- **Diagrama de Comunicação:** Modelar o comportamento dinâmico do sistema, detalhando como os objetos interagem para realizar os casos de uso.
+- **Diagrama de Atividida:** ilustra o fluxo de trabalho do sistema, como os passos para agendar consultas ou consultar sintomas.
+-  **Diagrama de Estados:** representa o ciclo de vida dos principais objetos.
+
+
 
 Esses diagramas ajudaram a organizar o processo de desenvolvimento e garantir que as funcionalidades fossem implementadas de forma consistente com os requisitos levantados.
 
 ---
 
+## 🚀 Como Usar
+
+Siga os passos abaixo para configurar e executar o chatbot **ConverSaúdezinha** no seu ambiente local:
+
+### 1. **Pré-requisitos**
+Antes de começar, certifique-se de ter instalado:
+- [Python 3.9+](https://www.python.org/downloads/)
+- Gerenciador de pacotes **pip** (geralmente instalado junto com o Python)
+
+### 2. **Clone o Repositório**
+Clone o repositório para o seu computador utilizando git bash
+
+### 3. **Biblioteca Flask**
+Instale a biblioteca Flask no python com pip install Flask no CMD
+
+### 4. **Estude o código**
+Por ainda ser um protótipo ainda não possuí todas as funções de um chat Bot completo, considere estudar o código assim como a biblioteca utilizada para compreender todas as funções e sua utilidade
+
+### 4. **Aproveite o Saudezinha**
+Por fim acesse o protótipo rodando o código e acessando o link gerado no terminal e aproveite :)
