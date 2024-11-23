@@ -86,5 +86,5 @@ O **ConverSaudezinha** é um chatbot desenvolvido em **Flask** para fornecer sup
 - **Lógica**: Respostas são baseadas em palavras-chave, como "suicídio", "consulta", "sintoma", entre outras. A função também gerencia o nível de gravidade da situação (ex: nível de tensão do usuário) e oferece respostas adequadas.
 
 ## Considerações Finais
-Este projeto é um chatbot de apoio à saúde mental, com um foco em prevenção ao suicídio e auxílio psicológico. A estrutura básica está pronta, mas o sistema pode ser expandido e melhorado conforme novas necessidades surgem. A plataforma foi projetada para ser fácil de usar, com interações simples e uma abordagem acolhedora e empática.
+Este projeto é um chatbot de suporte à saúde mental e física, com foco especial na prevenção ao suicídio e no auxílio psicológico. A estrutura básica já está desenvolvida, mas o sistema foi planejado para ser expansível e adaptável, permitindo melhorias contínuas conforme novas demandas e necessidades sejam identificadas. A plataforma prioriza a acessibilidade, oferecendo interações simples, uma interface amigável e uma abordagem acolhedora e empática.
 
