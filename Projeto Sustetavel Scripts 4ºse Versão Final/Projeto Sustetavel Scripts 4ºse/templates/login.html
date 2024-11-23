@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HOME</title>
+  <link rel="stylesheet" href="..\static\css\login.css">
+</head>
+
+<body>
+  {% include 'header.html' %}
+  <div id="form_fundo">
+    <h1>LOGIN</h1>
+
+    <div id="form_frente">
+      <form action="/login" id="login" method="post">
+        <label for="nome">NOME</label>
+        <input type="text" name="nome" id="nome" required placeholder="Digite seu Nome" /> <br><br>
+        <label for="senha">SENHA</label>
+        <input type="password" name="senha" id="senha" required placeholder="Digite sua senha" /> <br><br>
+        <button type="submit" id="btn_login">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>ENTRAR
+        </button>
+      </form>
+      <!-- Botão para redirecionar para a tela de registro -->
+      <div style="margin-top: 20px; text-align: center;">
+        <a href="/registrar" id="btn_register">Registrar-se</a>
+      </div>
+    </div>
+  </div>
+ 
+</body>
+
+</html>

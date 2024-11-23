@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversa Saudezinha</title>
+    <link rel="stylesheet" href="..\static\css\chat.css">
+</head>
+
+<body>
+    {% include 'header.html' %}
+    <div class="chat-container">
+        <h1>Conversa Saudezinha</h1>
+        <div class="chat-box" id="chat-box">
+            {% for mensagem in historico_conversa %}
+                <p><strong>{{ nome_usuario }}:</strong> {{ mensagem.user }}</p>
+                <p><strong>Saudezinha:</strong> {{ mensagem.bot }}</p>
+            {% endfor %}
+        </div>
+        <form action="/chat" method="post" id="chat-form">
+            <input type="text" name="user_input" placeholder="Digite sua pergunta aqui..." required>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+
+</html>
+

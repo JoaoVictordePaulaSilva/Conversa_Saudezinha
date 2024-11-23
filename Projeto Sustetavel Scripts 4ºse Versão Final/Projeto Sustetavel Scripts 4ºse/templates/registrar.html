@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar-se</title>
+    <link rel="stylesheet" href="..\static\css\registrar.css">
+</head>
+
+<body>
+    <div class="register-container">
+        <h1>Registrar-se</h1>
+        <form action="/registrar" method="post" id="register-form">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" required placeholder="Digite seu nome">
+
+            <label for="cpf">CPF</label>
+            <input type="text" id="cpf" name="cpf" required placeholder="Digite seu CPF">
+
+            <label for="idade">Idade</label>
+            <input type="number" id="idade" name="idade" required placeholder="Digite sua idade">
+
+            <label for="endereco">Endereço</label>
+            <input type="text" id="endereco" name="endereco" required placeholder="Digite seu endereço">
+
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" name="senha" required placeholder="Crie uma senha">
+
+            <label for="confirma_senha">Confirme a Senha</label>
+            <input type="password" id="confirma_senha" name="confirma_senha" required placeholder="Confirme sua senha">
+
+            <button type="submit">Registrar</button>
+        </form>
+    </div>
+</body>
+
+</html>
