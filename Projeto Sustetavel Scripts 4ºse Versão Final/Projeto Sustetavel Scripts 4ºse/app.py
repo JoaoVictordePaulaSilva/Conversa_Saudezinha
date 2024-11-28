@@ -82,16 +82,14 @@ def resposta_Chat(user_input):
     ##Ifs Suicídio ou depressão
     if "suicídio" in user_input or "deprimido" in user_input or "me matar" in user_input:
         nivel_tensao += 1
-
-    if nivel_tensao == 1 and ajuda:
-        return "Sinto muito por você estar passando por isso. Para apoio imediato, entre em contato com um profissional de saúde mental ou ligue 188."
-    elif nivel_tensao == 2 and ajuda:
-        return "Considere entrar em contato com um profissional, existem pessoas que se importam com você e não gostariam que você tomasse uma decisão errada, por favor, ligue 188."
-    elif nivel_tensao >= 3 and ajuda:
-        return "Por favor, ligue para 188 para receber assistência, sua vida é mais importante que um momento complicado, continue firme e não desista, ainda há muito para viver."
-    elif not ajuda:
-        return "Fale mais, estou aqui para te apoiar e te mostrar o qual forte você é!"
-    
+        if nivel_tensao == 1 and ajuda:
+            return "Sinto muito por você estar passando por isso. Para apoio imediato, entre em contato com um profissional de saúde mental ou ligue 188."
+        elif nivel_tensao == 2 and ajuda:
+            return "Considere entrar em contato com um profissional, existem pessoas que se importam com você e não gostariam que você tomasse uma decisão errada, por favor, ligue 188."
+        elif nivel_tensao >= 3 and ajuda:
+            return "Por favor, ligue para 188 para receber assistência, sua vida é mais importante que um momento complicado, continue firme e não desista, ainda há muito para viver."
+        elif not ajuda:
+            return "Fale mais, estou aqui para te apoiar e te mostrar o qual forte você é!"
     ## Ifs Consulta
     elif "consulta presencial" in user_input:
         return "Para uma consulta presencial o seu endereço é o mesmo cadastrado anteriormente?. Podemos usá-lo para encontrar clínicas próximas?"
