@@ -22,7 +22,7 @@
 ## 🛠 Tecnologias Utilizadas
 - **Frontend:** HTML e CSS  
 - **Backend:** Flask(Python)
-- **Diagrmas UML:** Lucid Chard  
+- **Diagramas UML:** Lucid Chard  
 ---
 
 ## 📋 Processo de Desenvolvimento
